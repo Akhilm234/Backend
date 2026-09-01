@@ -3,12 +3,7 @@ name: Backend CI/CD
 on:
   push:
     branches:
-<<<<<<< HEAD
-      - main
-=======
-      -  master 
->>>>>>> 05e4a4097478bbc0377643ab0bd7b7b932ea7134
-
+      - master
 env:
   REGION: us-east4
   REPOSITORY: conduit
