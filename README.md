@@ -134,10 +134,8 @@ Google Cloud Console -> Cloud Run -> conduit-backend -> Metrics
 - Neon credentials are configured separately for local development, CI/CD, and Cloud Run.
 - Qwiklabs restricted public Cloud Run IAM changes, so services were deployed privately for testing.
 
-## Screenshots to add
+## Deployment and logs
 
-- Successful backend CI/CD run
-- Backend Cloud Run service
-- Backend API response
-- Backend Cloud Run logs and metrics
-- Security scan result
+The backend was deployed successfully to Google Cloud Run. The screenshot below shows the deployed service, its region and URL, and the Cloud Run startup logs.
+
+![Backend Cloud Run deployment and logs](docs/screenshots/backend-deployment-logs.png)
