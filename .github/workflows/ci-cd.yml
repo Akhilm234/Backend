@@ -11,7 +11,7 @@ permissions:
 
 env:
   REGION: us-east4
-  REPOSITORY: conduit
+  REPOSITORY: web-repo
   SERVICE: conduit-backend
 
 jobs:
