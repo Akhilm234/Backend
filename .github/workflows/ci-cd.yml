@@ -31,6 +31,11 @@ jobs:
       - name: Install dependenciess
         run: npm ci
 
+      - name: Set test environment variables
+        run: |
+          echo "DATABASE_URL=${{ secrets.DATABASE_URL }}" >> "$GITHUB_ENV"
+          echo "JWT_SECRET=${{ secrets.JWT_SECRET }}" >> "$GITHUB_ENV"
+
       - name: Run tests
         run: npm test -- --runInBand
 
